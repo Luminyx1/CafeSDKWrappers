@@ -2,7 +2,11 @@
 
 #include <ninTexUtils/types.h>
 
+#ifdef __cplusplus
+#include <cstdio>
+#else
 #include <stdio.h>
+#endif
 
 #ifdef NDEBUG
 #define OSReport(...)
