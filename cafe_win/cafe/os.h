@@ -2,6 +2,8 @@
 
 #include <ninTexUtils/types.h>
 
+#include <stdio.h>
+
 #ifdef NDEBUG
 #define OSReport(...)
 #else
