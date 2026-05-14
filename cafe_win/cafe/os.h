@@ -1,8 +1,8 @@
 #pragma once
 
-#include <misc/rio_Types.h>
+#include <types.h>
 
-#define OSReport RIO_LOG
+#define OSReport printf
 
 #ifdef __cplusplus
 extern "C"
