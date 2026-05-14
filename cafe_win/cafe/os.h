@@ -1,8 +1,12 @@
 #pragma once
 
-#include <types.h>
+#include <ninTexUtils/types.h>
 
+#ifndef NDEBUG
 #define OSReport printf
+#else
+#define OSReport(...)
+#endif
 
 #ifdef __cplusplus
 extern "C"
