@@ -2,10 +2,10 @@
 
 #include <ninTexUtils/types.h>
 
-#ifndef NDEBUG
-#define OSReport printf
-#else
+#ifdef NDEBUG
 #define OSReport(...)
+#else
+#define OSReport printf
 #endif
 
 #ifdef __cplusplus
